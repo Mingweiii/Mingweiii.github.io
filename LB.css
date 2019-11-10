@@ -1,0 +1,29 @@
+.title{
+	background-color: skyblue;
+	display:flex;justify-content: center; align-items: center;
+	font-size: 250%;
+	color: ivory;
+	font-family: 'Yeon Sung', cursive;
+	border-bottom: 10px solid #e1eeff;
+}
+.sign{display: inline-block; 
+	justify-content: flex-end;
+	align-items:flex-end;
+	border: 5px solid ivory;
+}
+ul {display: flex;flex-direction: row-reverse;
+	justify-content: space-around;
+	background-color: lightblue;
+	font-style: italic;
+	color: lightyellow;
+	border: 3px solid lightyellosw;
+	list-style-type: none;
+	font-family: 'Indie Flower', cursive;
+	margin:0;
+	padding:0;
+	font-size: 200%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	height: 150%;
+}
+li{display: block; border: 1px solid ivory;
+}
